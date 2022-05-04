@@ -21,7 +21,7 @@
       <output id="OutputClause_1xw4oqa" label="reason" name="reason" typeRef="string" />
       <rule id="DecisionRule_0yoxyga">
         <inputEntry id="UnaryTests_11609n2">
-          <text>![0..10]</text>
+          <text>if &lt;0 or &gt;10 then true else false</text>
         </inputEntry>
         <inputEntry id="UnaryTests_0ag6sui">
           <text></text>
@@ -33,7 +33,7 @@
           <text>false</text>
         </outputEntry>
         <outputEntry id="LiteralExpression_17557ks">
-          <text>mae is outside of the expected range</text>
+          <text>"mae is outside of the expected range"</text>
         </outputEntry>
       </rule>
       <rule id="DecisionRule_05zznma">
@@ -51,7 +51,7 @@
           <text>false</text>
         </outputEntry>
         <outputEntry id="LiteralExpression_1l9znxl">
-          <text>R Squared is below the acceptable threshold of 0.7</text>
+          <text>"R Squared is below the acceptable threshold of 0.7"</text>
         </outputEntry>
       </rule>
       <rule id="DecisionRule_0cg9wg6">
@@ -68,7 +68,7 @@
           <text>false</text>
         </outputEntry>
         <outputEntry id="LiteralExpression_156jg8p">
-          <text>RMSE is above the accepable threshold of 0.2</text>
+          <text>"RMSE is above the accepable threshold of 0.2"</text>
         </outputEntry>
       </rule>
     </decisionTable>
