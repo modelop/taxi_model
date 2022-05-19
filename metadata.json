@@ -1,6 +1,4 @@
 {
-    "tags": [],
-    "modelRisk" : "High",
     "modelMethodology": "regression",
     "name": "Taxi Tip Predictor"
 }
