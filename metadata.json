@@ -1,6 +1,5 @@
 {
     "modelMethodology": "regression",
-    "name": "Taxi Tip Predictor",
     "custom" :  {
         "assignment_one" : "Jane Doe",
         "assignment_two" : "John Henry"
